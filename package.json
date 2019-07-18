@@ -11,7 +11,8 @@
     ],
     "scripts": {
         "test": "jest 'tests'",
-        "build": "node_modules/@babel/cli/bin/babel.js src -d lib"
+        "build": "node_modules/@babel/cli/bin/babel.js src -d lib",
+        "prepare": "npm run build"
     },
     "author": "Nithin Gangadharan <nithin.linkin@gmail.com> (https://github.com/gnithin)",
     "repository": {
